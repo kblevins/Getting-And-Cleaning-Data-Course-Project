@@ -16,7 +16,7 @@ original data.
 Columns
 -------
 
-*FEATURE*
+**FEATURE**
 
   A subset of the features described in the features_info.txt. These values were recorded 
   in columns in the original X_test.txt and X_train.txt. These data were converted to 
@@ -164,7 +164,7 @@ Columns
   - tBodyAccJerk-std()-Z
 
 
-*SUBJECT*
+**SUBJECT**
 
   The subject for which the data were collected from. These data were connected to the 
   sensor data by binding the columns from the X_test.txt and X_train.txt with the 
@@ -172,7 +172,7 @@ Columns
   values :: 1-30 unique identifier for each subject
 
 
-*ACTIVITY_TYPE*
+**ACTIVITY_TYPE**
 
   Description of the activity category that the data correspond to. These data were
   connected to the sensor data by merging the combined test and train data with the
@@ -180,7 +180,7 @@ Columns
   values :: LAYING, SITTING, STANDING, WALKING,  WALKING_DOWNSTAIRS,  WALKING_UPSTAIRS
 
 
-*MEAN*
+**MEAN**
 
   The mean calculated for each of the subset of features taken from the original dataset
   which are described in features_info.txt. The original measurement values were 
@@ -189,7 +189,7 @@ Columns
   values :: -0.99770-0.97450
 
 
-*FEATURE_DOMAIN*
+**FEATURE_DOMAIN**
 
   One part of the descriptive explanation of each variable (feature), this indicates 
   whether the variable is of the time or frequency domain. These data were extracted
@@ -197,7 +197,7 @@ Columns
   values :: frequency, time
   
 
-*FEATURE_STATISTIC*
+**FEATURE_STATISTIC**
 
   One part of the descriptive explanation of each variable (feature), this indicates 
   whether the variable is for the mean or standard deviation statistic. These data were 
@@ -205,7 +205,7 @@ Columns
   values :: mean, std
 
 
-*FEATURE_DIRECTION*
+**FEATURE_DIRECTION**
 
   One part of the descriptive explanation of each variable (feature), this indicates 
   which direction the activity was measured in. These data were extracted  from the
@@ -213,7 +213,7 @@ Columns
   values :: X,Y,Z
 
 
-*FEATURE_ACCELERATION_TYPE*
+**FEATURE_ACCELERATION_TYPE**
 
   One part of the descriptive explanation of each variable (feature), this indicates 
   whether the acceleration measured was a signal from the subject's body or from
@@ -221,7 +221,7 @@ Columns
   values :: body, gravity
   
 
-*FEATURE_INSTRUMENT*
+**FEATURE_INSTRUMENT**
 
   One part of the descriptive explanation of each variable (feature), this indicates 
   which type of instrument the signal came from. These data were extracted
@@ -229,7 +229,7 @@ Columns
   values :: accelerometer, gyroscope
   
 
-*FEATURE_JERK*
+**FEATURE_JERK**
 
   One part of the descriptive explanation of each variable (feature), this indicates 
   whether the variable is a calculated jerk measurement or not. These data were 
@@ -237,7 +237,7 @@ Columns
   values :: yes, no
   
 
-*FEATURE_MAGNITUDE*
+**FEATURE_MAGNITUDE**
 
   One part of the descriptive explanation of each variable (feature), this indicates 
   whether the variable is a calculated magnitude or not. These data were extracted
