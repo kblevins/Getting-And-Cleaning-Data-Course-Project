@@ -16,7 +16,7 @@ original data.
 Columns
 -------
 
-FEATURE
+*FEATURE*
 
   A subset of the features described in the features_info.txt. These values were recorded 
   in columns in the original X_test.txt and X_train.txt. These data were converted to 
@@ -31,42 +31,140 @@ FEATURE
   
   values ::
   
-  tBodyAcc-mean()-X  tBodyGyro-mean()-Z  tBodyGyro-std()-Z  tBodyGyroJerk-mean()-Z
+  - tBodyAcc-mean()-X
   
-  tBodyGyroJerk-std()-Z  tBodyAccMag-std()  tBodyAccJerkMag-mean()  tBodyGyroMag-std()
+  - tBodyGyro-mean()-Z
   
-  fBodyAcc-mean()-X  fBodyAcc-std()-X  tBodyAcc-mean()-Z  fBodyAccJerk-mean()-Z
+  - tBodyGyro-std()-Z
   
-  fBodyAccJerk-std()-Z  tGravityAcc-mean()-Y  fBodyGyro-mean()-Z  fBodyGyro-std()-Z
+  - tBodyGyroJerk-mean()-Z
   
-  tGravityAcc-std()-Y  fBodyAccMag-mean()  fBodyBodyAccJerkMag-std()  fBodyBodyGyroJerkMag-mean()
+  - tBodyGyroJerk-std()-Z
   
-  tBodyAccJerk-mean()-X  tBodyAccJerk-std()-X  tBodyGyro-mean()-X  tBodyGyro-std()-X
+  - tBodyAccMag-std()
   
-  tBodyGyroJerk-mean()-X  tBodyGyroJerk-std()-X  tBodyAcc-mean()-Y  tGravityAccMag-mean()
+  - tBodyAccJerkMag-mean()
   
-  tBodyAccJerkMag-std()  tBodyGyroJerkMag-mean()  fBodyAcc-mean()-Y  fBodyAcc-std()-Y
+  - tBodyGyroMag-std()
   
-  fBodyAccJerk-mean()-X  fBodyAccJerk-std()-X  tBodyAcc-std()-X  fBodyGyro-mean()-X
+  - fBodyAcc-mean()-X
   
-  fBodyGyro-std()-X  tGravityAcc-mean()-Z  tGravityAcc-std()-Z  fBodyAccMag-std()
+  - fBodyAcc-std()-X
   
-  fBodyBodyGyroMag-mean()  fBodyBodyGyroJerkMag-std()  tBodyAccJerk-mean()-Y
+  - tBodyAcc-mean()-Z
   
-  tBodyAccJerk-std()-Y  tBodyGyro-mean()-Y  tBodyGyro-std()-Y  tBodyGyroJerk-mean()-Y
+  - fBodyAccJerk-mean()-Z
   
-  tBodyGyroJerk-std()-Y  tBodyAccMag-mean()  tGravityAccMag-std()  tBodyGyroMag-mean()
+  - fBodyAccJerk-std()-Z
   
-  tBodyGyroJerkMag-std()  fBodyAcc-mean()-Z  fBodyAcc-std()-Z  fBodyAccJerk-mean()-Y
+  - tGravityAcc-mean()-Y
   
-  fBodyAccJerk-std()-Y  tGravityAcc-mean()-X  fBodyGyro-mean()-Y  fBodyGyro-std()-Y
+  - fBodyGyro-mean()-Z
   
-  tGravityAcc-std()-X  tBodyAcc-std()-Y  fBodyBodyAccJerkMag-mean()  fBodyBodyGyroMag-std()
+  - fBodyGyro-std()-Z
   
-  tBodyAcc-std()-Z  tBodyAccJerk-mean()-Z  tBodyAccJerk-std()-Z
+  - tGravityAcc-std()-Y
+  
+  - fBodyAccMag-mean()
+  
+  - fBodyBodyAccJerkMag-std()
+  
+  - fBodyBodyGyroJerkMag-mean()
+  
+  - tBodyAccJerk-mean()-X
+  
+  - tBodyAccJerk-std()-X
+  
+  - tBodyGyro-mean()-X
+  
+  - tBodyGyro-std()-X
+  
+  - tBodyGyroJerk-mean()-X
+  
+  - tBodyGyroJerk-std()-X
+  
+  - tBodyAcc-mean()-Y
+  
+  - tGravityAccMag-mean()
+  
+  - tBodyAccJerkMag-std()
+  
+  - tBodyGyroJerkMag-mean()
+  
+  - fBodyAcc-mean()-Y
+  
+  - fBodyAcc-std()-Y
+  
+  - fBodyAccJerk-mean()-X
+  
+  - fBodyAccJerk-std()-X
+  
+  - tBodyAcc-std()-X
+  
+  - fBodyGyro-mean()-X
+  
+  - fBodyGyro-std()-X
+  
+  - tGravityAcc-mean()-Z
+  
+  - tGravityAcc-std()-Z
+  
+  - fBodyAccMag-std()
+  
+  - fBodyBodyGyroMag-mean()
+  
+  - fBodyBodyGyroJerkMag-std()
+  
+  - tBodyAccJerk-mean()-Y
+  
+  - tBodyAccJerk-std()-Y
+  
+  - tBodyGyro-mean()-Y
+  
+  - tBodyGyro-std()-Y
+  
+  - tBodyGyroJerk-mean()-Y
+  
+  - tBodyGyroJerk-std()-Y
+  
+  - tBodyAccMag-mean()
+  
+  - tGravityAccMag-std()
+  
+  - tBodyGyroMag-mean()
+  
+  - tBodyGyroJerkMag-std()
+  
+  - fBodyAcc-mean()-Z
+  
+  - fBodyAcc-std()-Z
+  
+  - fBodyAccJerk-mean()-Y
+  
+  - fBodyAccJerk-std()-Y
+  
+  - tGravityAcc-mean()-X
+  
+  - fBodyGyro-mean()-Y
+  
+  - fBodyGyro-std()-Y
+  
+  - tGravityAcc-std()-X
+  
+  - tBodyAcc-std()-Y
+  
+  - fBodyBodyAccJerkMag-mean()
+  
+  - fBodyBodyGyroMag-std()
+  
+  - tBodyAcc-std()-Z
+  
+  - tBodyAccJerk-mean()-Z
+  
+  - tBodyAccJerk-std()-Z
 
 
-SUBJECT
+*SUBJECT*
 
   The subject for which the data were collected from. These data were connected to the 
   sensor data by binding the columns from the X_test.txt and X_train.txt with the 
@@ -74,7 +172,7 @@ SUBJECT
   values :: 1-30 unique identifier for each subject
 
 
-ACTIVITY_TYPE
+*ACTIVITY_TYPE*
 
   Description of the activity category that the data correspond to. These data were
   connected to the sensor data by merging the combined test and train data with the
@@ -82,7 +180,7 @@ ACTIVITY_TYPE
   values :: LAYING, SITTING, STANDING, WALKING,  WALKING_DOWNSTAIRS,  WALKING_UPSTAIRS
 
 
-MEAN
+*MEAN*
 
   The mean calculated for each of the subset of features taken from the original dataset
   which are described in features_info.txt. The original measurement values were 
@@ -91,7 +189,7 @@ MEAN
   values :: -0.99770-0.97450
 
 
-FEATURE_DOMAIN
+*FEATURE_DOMAIN*
 
   One part of the descriptive explanation of each variable (feature), this indicates 
   whether the variable is of the time or frequency domain. These data were extracted
@@ -99,7 +197,7 @@ FEATURE_DOMAIN
   values :: frequency, time
   
 
-FEATURE_STATISTIC
+*FEATURE_STATISTIC*
 
   One part of the descriptive explanation of each variable (feature), this indicates 
   whether the variable is for the mean or standard deviation statistic. These data were 
@@ -107,7 +205,7 @@ FEATURE_STATISTIC
   values :: mean, std
 
 
-FEATURE_DIRECTION
+*FEATURE_DIRECTION*
 
   One part of the descriptive explanation of each variable (feature), this indicates 
   which direction the activity was measured in. These data were extracted  from the
@@ -115,7 +213,7 @@ FEATURE_DIRECTION
   values :: X,Y,Z
 
 
-FEATURE_ACCELERATION_TYPE
+*FEATURE_ACCELERATION_TYPE*
 
   One part of the descriptive explanation of each variable (feature), this indicates 
   whether the acceleration measured was a signal from the subject's body or from
@@ -123,7 +221,7 @@ FEATURE_ACCELERATION_TYPE
   values :: body, gravity
   
 
-FEATURE_INSTRUMENT
+*FEATURE_INSTRUMENT*
 
   One part of the descriptive explanation of each variable (feature), this indicates 
   which type of instrument the signal came from. These data were extracted
@@ -131,7 +229,7 @@ FEATURE_INSTRUMENT
   values :: accelerometer, gyroscope
   
 
-FEATURE_JERK
+*FEATURE_JERK*
 
   One part of the descriptive explanation of each variable (feature), this indicates 
   whether the variable is a calculated jerk measurement or not. These data were 
@@ -139,7 +237,7 @@ FEATURE_JERK
   values :: yes, no
   
 
-FEATURE_MAGNITUDE
+*FEATURE_MAGNITUDE*
 
   One part of the descriptive explanation of each variable (feature), this indicates 
   whether the variable is a calculated magnitude or not. These data were extracted
