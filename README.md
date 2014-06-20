@@ -1,11 +1,25 @@
+Course Project Files
+====================
+
+Intro
+-----
+
 The files contained in this repository are all part of the Course Project for the Coursera Getting and Cleaning Data course.
 
 The goals of this project are as follows:
 1. Merges the training and the test sets to create one data set.
+
 2. Extracts only the measurements on the mean and standard deviation for each measurement. 
+
 3. Uses descriptive activity names to name the activities in the data set
+
 4. Appropriately labels the data set with descriptive variable names. 
+
 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
+
+
+Step-by-Step Guide
+------------------
 
 The following steps will result in the writing of the final tidy dataset (step 5 above)
 to your working directory
@@ -56,7 +70,11 @@ tidy_dataset.txt. This text file contains comma-separated values.
 
 
 References
+----------
 
-Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
+*Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human 
+Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector 
+Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, 
+Spain. Dec 2012
 
-Hadley Wickham. Tidy Data. Journal of Statistical Software. pre-publication. Accessed on 6/20/2014 at http://vita.had.co.nz/papers/tidy-data.pdf
+*Hadley Wickham. Tidy Data. Journal of Statistical Software. pre-publication. Accessed on 6/20/2014 at http://vita.had.co.nz/papers/tidy-data.pdf
